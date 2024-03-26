@@ -3,7 +3,7 @@
         "title": "Ben Schwartz | About",
         "description": "TODO"
     },
-    "about": "Hello! My name is **Ben**, a software developer intern based in Solon, OH. I love building things for the internet, mobile applications, integrated systems, and making them safe! My goal is to contribute to high-performing solutions that are secure, reliable, scalable, and able to evolve over time.\r\n\r\n\r\nI am currently an undergrad at the **University of Michigan** studying Computer Science and a teaching assistant for a cybersecurity course, planning to graduate in April 2024.\r\n\r\n\r\nI have also been working as a software devloper intern with **Hyland Software** since the summer of 2023, and I'm always looking for new opportunities to learn and grow as a software developer!",
+    "about": "Hello! My name is **Ben**, a software developer from Solon, OH. I love building things for the internet, mobile applications, integrated systems, and making them safe! My goal is to contribute to high-performing solutions that are secure, reliable, scalable, and able to evolve over time.\r\n\r\n\r\nI am currently a graduate student at the **University of Michigan** studying Computer Science and a teaching assistant for a cybersecurity course, planning to graduate in April 2025.\r\n\r\n\r\nI'm also going to be interning at Censys this summer, and I'm always looking for new opportunities to learn!",
     "imageSource": "static/media/about/profile.webp",
     "icons": [
         {
@@ -34,12 +34,8 @@
                     "icon": "static/media/about/icons/dog.png"
                 },
                 {
-                    "title": "Personal Projects",
+                    "title": "Passion Projects",
                     "icon": "static/media/about/icons/personal-projects.png"
-                },
-                {
-                    "title": "ChatGPT",
-                    "icon": "static/media/about/icons/chatgpt.png"
                 }
             ]
         },
@@ -79,7 +75,7 @@
                     "icon": "static/media/about/icons/php.svg"
                 },
                 {
-                    "title": "CSS / HTML",
+                    "title": "HTML / CSS",
                     "icon": "static/media/about/icons/html_css.svg"
                 },
                 {
@@ -108,10 +104,6 @@
             "title": "Frameworks & Technologies",
             "items": [
                 {
-                    "title": "Android",
-                    "icon": "static/media/about/icons/android_new.png"
-                },
-                {
                     "title": "React",
                     "icon": "static/media/about/icons/react.png"
                 },
@@ -124,32 +116,8 @@
                     "icon": "static/media/about/icons/python.png"
                 },
                 {
-                    "title": "Tkinter",
-                    "icon": "static/media/about/icons/tkinter.png"
-                },
-                {
-                    "title": "Chrome Extension",
-                    "icon": "static/media/about/icons/chrome-extension.svg"
-                },
-                {
-                    "title": "Boomi",
-                    "icon": "static/media/about/icons/boomi.svg"
-                },
-                {
-                    "title": "Swagger",
-                    "icon": "static/media/about/icons/swagger.svg"
-                },
-                {
-                    "title": ".NET Core",
+                    "title": ".NET",
                     "icon": "static/media/about/icons/dotnet.png"
-                },
-                {
-                    "title": "Razor Libraries",
-                    "icon": "static/media/about/icons/dotnet.png"
-                },
-                {
-                    "title": "Blockchain",
-                    "icon": "static/media/about/icons/blockchain.png"
                 },
                 {
                     "title": "Bootstrap",
@@ -162,16 +130,57 @@
                 {
                     "title": "Entity Framework",
                     "icon": "static/media/about/icons/ef.png"
+                }
+            ]
+        },
+        {
+            "title": "Platforms",
+            "items": [
+                {
+                    "title": "Chrome",
+                    "icon": "static/media/about/icons/chrome-extension.svg"
                 },
                 {
-                    "title": "Internet Computer",
-                    "icon": "static/media/about/icons/icp.svg"
+                    "title": "MacOS",
+                    "icon": "static/media/about/icons/macos.png"
+                },
+                {
+                    "title": "Ubuntu",
+                    "icon": "static/media/about/icons/ubuntu.svg"
+                },
+                {
+                    "title": "Linux",
+                    "icon": "static/media/about/icons/linux.png"
+                },
+                {
+                    "title": "Windows",
+                    "icon": "static/media/about/icons/windows.svg"
+                },
+                {
+                    "title": "iOS",
+                    "icon": "static/media/about/icons/ios.svg"
+                },
+                {
+                    "title": "Azure",
+                    "icon": "static/media/about/icons/ado.svg"
+                },
+                {
+                    "title": "AWS",
+                    "icon": "static/media/about/icons/aws.svg"
                 }
             ]
         },
         {
             "title": "Tools",
             "items": [
+                {
+                    "title": "Boomi",
+                    "icon": "static/media/about/icons/boomi.svg"
+                },
+                {
+                    "title": "Swagger",
+                    "icon": "static/media/about/icons/swagger.svg"
+                },
                 {
                     "title": "Git",
                     "icon": "static/media/about/icons/git.png"
@@ -217,61 +226,16 @@
                     "icon": "static/media/about/icons/jira.svg"
                 },
                 {
-                    "title": "Confluence",
-                    "icon": "static/media/about/icons/confluence.png"
-                },
-                {
                     "title": "Postman",
                     "icon": "static/media/about/icons/postman.svg"
                 },
                 {
-                    "title": "SQL Server",
+                    "title": "SSMS",
                     "icon": "static/media/about/icons/sqlserver.svg"
                 },
                 {
-                    "title": "phpMyAdmin",
-                    "icon": "static/media/about/icons/phpmyadmin.png"
-                }
-            ]
-        },
-        {
-            "title": "Platforms",
-            "items": [
-                {
-                    "title": "MacOS",
-                    "icon": "static/media/about/icons/macos.png"
-                },
-                {
-                    "title": "Ubuntu",
-                    "icon": "static/media/about/icons/ubuntu.svg"
-                },
-                {
-                    "title": "Linux",
-                    "icon": "static/media/about/icons/linux.png"
-                },
-                {
-                    "title": "Windows",
-                    "icon": "static/media/about/icons/windows.svg"
-                },
-                {
-                    "title": "Android Studio",
-                    "icon": "static/media/about/icons/android-studio.png"
-                },
-                {
-                    "title": "iOS",
-                    "icon": "static/media/about/icons/ios.svg"
-                },
-                {
-                    "title": "Fusion",
-                    "icon": "static/media/about/icons/fusion.png"
-                },
-                {
-                    "title": "Azure",
-                    "icon": "static/media/about/icons/ado.svg"
-                },
-                {
-                    "title": "AWS",
-                    "icon": "static/media/about/icons/aws.svg"
+                    "title": "Kubernetes",
+                    "icon": "static/media/about/icons/kubernetes.svg"
                 }
             ]
         }

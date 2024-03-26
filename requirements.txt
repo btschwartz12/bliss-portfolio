@@ -1,4 +1,0 @@
-flask==2.2.3
-uwsgi==2.0.21
-requests==2.31.0
-pytest==7.4.2

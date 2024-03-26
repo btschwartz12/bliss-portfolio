@@ -1,1 +1,1 @@
-from BlissPortfolio.blueprints import main
+from .main import main_bp

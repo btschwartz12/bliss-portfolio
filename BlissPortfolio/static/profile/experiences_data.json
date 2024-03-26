@@ -5,6 +5,66 @@
     },
     "experiences": [
         {
+            "title": "August 2023",
+            "cardTitle": "University of Michigan",
+            "cardSubtitle": "Graduate Student Instructor, EECS 388: Introduction to Computer Security",
+            "cardDetailedText": "As a teaching assistant my final semester of undergrad, and now going to be a graduate student instructor during my masters program, I help improve and maintain one of the most popular CS electives at the University of Michigan. The course focuses on all fundamental aspects of cybersecurity: cryptography, web security, networks, applications, and digital forensics. My work consists of teaching labs, writing exams, holding office hours, and a lot of project maintenence; this involves managing the course's AWS instances for web-based projects, Docker containers for student development environments, virtual machines for students, and the course autograder. I'm working closely with professor J. Alex Halderman to design new projects and refine the course, and I plan to have a much more involved role as a graduate student.",
+            "tags": [
+                {
+                    "text": "Fall 2023",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Winter 2024",
+                    "color": "yellow"
+                },
+                {
+                    "text": "AWS",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Infrastructure",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Docker",
+                    "color": "gray"
+                },
+                {
+                    "text": "Kubernetes",
+                    "color": "gray"
+                },
+                {
+                    "text": "Teaching",
+                    "color": "gray"
+                },
+                {
+                    "text": "C",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Python",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Go",
+                    "color": "gray"
+                },
+                {
+                    "text": "Caddy",
+                    "color": "gray"
+                },
+                {
+                    "text": "Slack",
+                    "color": "yellow"
+                },
+                {
+                    "text": "Piazza",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
             "title": "May 2023",
             "cardTitle": "Hyland Software",
             "cardSubtitle": "Software Developer Intern",

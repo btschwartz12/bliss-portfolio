@@ -10,9 +10,9 @@
         "I improve engineering systems"
     ],
     "about": [
-        "Senior at the University of Michigan studying Computer Science.",
+        "Graduate Student at the University of Michigan studying Computer Science.",
         "Cybersecurity Teaching Assistant.",
-        "Software Developer Intern with Hyland Software.",
+        "Incoming SDE Intern @ Censys.",
         "Check out my dogs, then the stuff below!"
     ],
     "img_url": "static/media/home/picture-big.webp",
@@ -44,7 +44,7 @@
         },
         {
             "name": "Resume",
-            "route": "https://drive.google.com/file/d/1wCPzd7fiAko-PfaizeCkd8ZChVdLK7eA/view?usp=sharing",
+            "route": "https://btschwartz.com/resume",
             "type": "link",
             "id": "button_h"
         }

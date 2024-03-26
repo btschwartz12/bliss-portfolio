@@ -1,0 +1,45 @@
+services:
+  redis:
+    container_name: bp-redis
+    image: redis
+    ports:
+      - ${BP_REDIS_PORT:-6379}:6379
+    profiles:
+      - production
+  
+  frontend-build:
+    container_name: bp-fe-build
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./build:/src/build
+    command: npx webpack --config /src/webpack.config.js
+    profiles:
+      - build
+
+  server:
+    container_name: bp-server
+    build:
+      context: ./BlissPortfolio
+    environment:
+      - REDIS_URL=redis://bp-redis:6379/0
+    ports:
+      - ${BP_SERVER_PORT:-8000}:8000
+    volumes:
+      - ./build:/app/build
+      - ${PORTFOLIO_DATA_SHARED_DIR}:/app/static/profile
+    command: /start-server.sh
+    profiles:
+      - production
+
+  frontend-dev:
+      container_name: bliss-portfolio-frontend-dev
+      build:
+        context: ./frontend
+        dockerfile: Dockerfile
+      ports:
+        - 3000:3000
+      command: npm run start
+      profiles:
+        - development

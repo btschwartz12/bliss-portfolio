@@ -30,10 +30,7 @@
                 }
             ],
             "bubble": {
-                "exists": true,
-                "text": "Currently Enrolled",
-                "text_color": "black",
-                "background_color": "#FFCB05"
+                "exists": false
             },
             "image_url": null
         },
@@ -63,10 +60,7 @@
                 }
             ],
             "bubble": {
-                "exists": true,
-                "text": "Currently Enrolled",
-                "text_color": "black",
-                "background_color": "#FFCB05"
+                "exists": false
             },
             "image_url": null
         },
@@ -321,7 +315,7 @@
             ],
             "bubble": {
                 "exists": true,
-                "text": "Currently a TA",
+                "text": "Currently a GSI",
                 "text_color": "white",
                 "background_color": "red"
             },
